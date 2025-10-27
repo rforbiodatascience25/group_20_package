@@ -1,0 +1,15 @@
+Package: CDMOLBIO
+Type: Package
+Title: Central dogma of molecular biology.
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Rasmus", "Tøffner-Clausen",
+      email = "s235430@student.dtu.dk",
+      role = c("aut", "cre")
+    )
+  )
+Description: This package is going to replicate the central dogma of molecular biology.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
