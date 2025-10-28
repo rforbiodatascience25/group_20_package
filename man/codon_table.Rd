@@ -3,7 +3,7 @@
 \docType{data}
 \name{codon_table}
 \alias{codon_table}
-\title{codon_table}
+\title{Codon table}
 \format{
 An object of class \code{character} of length 64.
 }
@@ -15,23 +15,5 @@ codon_table
 }
 \description{
 Table of nucleotide translation to 1-letter code amino acids
-}
-\details{
-c("UUU" = "F", "UCU" = "S", "UAU" = "Y", "UGU" = "C",
-"UUC" = "F", "UCC" = "S", "UAC" = "Y", "UGC" = "C",
-"UUA" = "L", "UCA" = "S", "UAA" = "_", "UGA" = "_",
-"UUG" = "L", "UCG" = "S", "UAG" = "_", "UGG" = "W",
-"CUU" = "L", "CCU" = "P", "CAU" = "H", "CGU" = "R",
-"CUC" = "L", "CCC" = "P", "CAC" = "H", "CGC" = "R",
-"CUA" = "L", "CCA" = "P", "CAA" = "Q", "CGA" = "R",
-"CUG" = "L", "CCG" = "P", "CAG" = "Q", "CGG" = "R",
-"AUU" = "I", "ACU" = "T", "AAU" = "N", "AGU" = "S",
-"AUC" = "I", "ACC" = "T", "AAC" = "N", "AGC" = "S",
-"AUA" = "I", "ACA" = "T", "AAA" = "K", "AGA" = "R",
-"AUG" = "M", "ACG" = "T", "AAG" = "K", "AGG" = "R",
-"GUU" = "V", "GCU" = "A", "GAU" = "D", "GGU" = "G",
-"GUC" = "V", "GCC" = "A", "GAC" = "D", "GGC" = "G",
-"GUA" = "V", "GCA" = "A", "GAA" = "E", "GGA" = "G",
-"GUG" = "V", "GCG" = "A", "GAG" = "E", "GGG" = "G")
 }
 \keyword{datasets}
