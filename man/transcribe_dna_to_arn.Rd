@@ -7,7 +7,7 @@
 transcribe_dna_to_arn(dna)
 }
 \arguments{
-\item{dna}{}
+\item{dna}{input dna sequence to transcribe}
 }
 \value{
 the transcription of the dna

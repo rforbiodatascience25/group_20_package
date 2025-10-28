@@ -1,6 +1,6 @@
 #' Transcription
 #'
-#' @param dna
+#' @param dna input dna sequence to transcribe
 #'
 #' @returns the transcription of the dna
 #' @export
