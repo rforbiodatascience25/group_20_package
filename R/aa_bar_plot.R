@@ -21,9 +21,12 @@ aa_bar_plot <- function(aa_sequence){
 
   plot <- counts |>
     ggplot2::ggplot(ggplot2::aes(x = aa_sequence, y = Counts, fill = aa_sequence)) +
-    ggplot2::geom_col() +
+    ggplot2::geom_col(color = "gray60", alpha = 0.8) +
     ggplot2::theme_bw() +
-    ggplot2::theme(legend.position = "none")
+    ggplot2::geom_hline(yintercept = 0, color = "black", linewidth = 0.5) +
+    ggplot2::theme(legend.position = "none",
+                   plot.title = ggplot2::element_text(face = "bold", size = 16, hjust = 0.5)) +
+    ggplot2::labs(title = "Distribution of Amino acids", x = "Amino acid")
 
   return(plot)
 }
