@@ -6,8 +6,8 @@
 #' @export
 #'
 #' @examples
-#' transcribe_dna_to_arn("ATGCTAGTTCGA")
-transcribe_dna_to_arn <- function(dna){
-  arn <- gsub("T", "U", dna)
-  return(arn)
+#' transcribe_dna_to_rna("ATGCTAGTTCGA")
+transcribe_dna_to_rna <- function(dna){
+  rna <- gsub("T", "U", dna)
+  return(rna)
 }

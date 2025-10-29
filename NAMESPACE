@@ -3,5 +3,5 @@
 export(aa_bar_plot)
 export(generate_dna)
 export(get_codons)
-export(transcribe_dna_to_arn)
+export(transcribe_dna_to_rna)
 export(translation)

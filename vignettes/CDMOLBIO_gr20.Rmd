@@ -31,10 +31,10 @@ set.seed("2025")
 generate_dna(36)
 ```
 
-### Translate with `transcribe_dna_to_arn`
+### Translate with `transcribe_dna_to_rna`
 
 ```{r}
-transcribe_dna_to_arn("ATGCTGTGC")
+transcribe_dna_to_rna("ATGCTGTGC")
 ```
 
 ### Extract codons to list from string with `get_codons`
@@ -59,7 +59,7 @@ aa_bar_plot("MTGCTGAUMN")
 
 ```{r}
 generate_dna(216) |>
-  transcribe_dna_to_arn() |>
+  transcribe_dna_to_rna() |>
   get_codons(start = 2) |>
   translation() |>
   aa_bar_plot()

@@ -25,10 +25,10 @@ generate_dna(36)
 #> [1] "ACCTAGTGTAACCGGGAGGGGTACGAACATCGTCGT"
 ```
 
-### Translate with `transcribe_dna_to_arn`
+### Translate with `transcribe_dna_to_rna`
 
 ``` r
-transcribe_dna_to_arn("ATGCTGTGC")
+transcribe_dna_to_rna("ATGCTGTGC")
 #> [1] "AUGCUGUGC"
 ```
 
@@ -58,7 +58,7 @@ aa_bar_plot("MTGCTGAUMN")
 
 ``` r
 generate_dna(216) |>
-  transcribe_dna_to_arn() |>
+  transcribe_dna_to_rna() |>
   get_codons(start = 2) |>
   translation() |>
   aa_bar_plot()
